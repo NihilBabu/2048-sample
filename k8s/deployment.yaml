@@ -15,7 +15,7 @@ spec:
       automountServiceAccountToken: false
       containers:
       - name: app-2048
-        image: modernisation.azurecr.io/app2048:latest
+        image: adfolks.azurecr.io/2048:latest
         resources:
           limits:
             memory: "128Mi"
